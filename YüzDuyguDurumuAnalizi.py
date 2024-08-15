@@ -93,8 +93,8 @@ def measure_performance(test_folder):
         if image_file.endswith(('jpg', 'jpeg', 'png')):
             image_path = os.path.join(test_folder, image_file)
 
-            # Gerçek etiketi belirleyin (örneğin, dosya adında olabilir)
-            # Örnek: 'happy_image1.jpg' dosya adından 'happy' etiketini çıkarıyoruz
+           
+            
             true_label = image_file.split('_')[0]  # Dosya adından etiketi çıkarma örneği
             true_labels.append(true_label)
 
